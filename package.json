@@ -1,17 +1,41 @@
 {
-  "private": true,
-  "scripts": {
-    "build": "turbo run build",
-    "dev": "turbo run dev",
-    "lint": "turbo run lint",
-    "format": "prettier --write \"**/*.{ts,tsx,md}\""
-  },
-  "devDependencies": {
-    "eslint": "^8.48.0",
-    "prettier": "^3.0.3",
-    "tsconfig": "workspace:*",
-    "turbo": "latest"
-  },
-  "packageManager": "pnpm@8.6.10",
-  "name": "boom-arena-stats"
+	"private": true,
+	"scripts": {
+		"build": "turbo run build",
+		"dev": "turbo run dev",
+		"lint": "turbo run lint",
+		"format": "prettier --write \"**/*.{ts,tsx,md}\"",
+		"test": "turbo run test"
+	},
+	"type": "module",
+	"devDependencies": {
+		"@nuxt/eslint-config": "^0.2.0",
+		"@typescript-eslint/eslint-plugin": "^6.5.0",
+		"@typescript-eslint/parser": "^6.5.0",
+		"eslint": "^8.48.0",
+		"eslint-config-prettier": "^8.5.0",
+		"eslint-plugin-import": "^2.28.1",
+		"eslint-plugin-nuxt": "^4.0.0",
+		"eslint-plugin-perfectionist": "^2.0.1",
+		"eslint-plugin-prettier": "^5.0.0",
+		"eslint-plugin-svelte": "^2.30.0",
+		"eslint-plugin-vue": "9.11.0",
+		"prettier": "^3.0.3",
+		"prettier-plugin-svelte": "^2.10.1",
+		"svelte": "^4.0.5",
+		"svelte-check": "^3.4.3",
+		"turbo": "latest",
+		"vitest": "^0.34.4"
+	},
+	"workspaces": [
+		"packages/*",
+		"apps/*"
+	],
+	"packageManager": "yarn@3.6.3",
+	"name": "boom-arena-stats",
+	"volta": {
+		"node": "18.12.0",
+		"yarn": "3.6.3",
+		"pnpm": "8.7.5"
+	}
 }

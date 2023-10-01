@@ -1,0 +1,21 @@
+{
+	"name": "@brawltracker/preset",
+	"main": "src/index.ts",
+	"files": [
+		"dist",
+		"src"
+	],
+	"private": true,
+	"type": "module",
+	"dependencies": {
+		"@pandacss/dev": "^0.14.0",
+		"@park-ui/presets": "^0.12.0"
+	},
+	"devDependencies": {
+		"@brawltracker/tsconfig": "workspace:*",
+		"tsup": "7.2.0"
+	},
+	"scripts": {
+		"build": "tsup"
+	}
+}

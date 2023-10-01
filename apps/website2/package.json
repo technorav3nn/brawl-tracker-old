@@ -1,0 +1,35 @@
+{
+	"name": "nuxt-app",
+	"private": true,
+	"type": "module",
+	"scripts": {
+		"build": "nuxt build",
+		"dev": "nuxt dev",
+		"generate": "nuxt generate",
+		"preview": "nuxt preview",
+		"nuxt-prepare": "nuxt prepare",
+		"prepare": "nuxt prepare && panda codegen --clean"
+	},
+	"devDependencies": {
+		"@hebilicious/server-block-nuxt": "^0.3.4",
+		"@hebilicious/sfc-server-volar": "^0.3.4",
+		"@hypernym/nuxt-font": "^2.0.1",
+		"@nuxt/devtools": "latest",
+		"@nuxtjs/eslint-config-typescript": "^12.0.0",
+		"@pandacss/dev": "0.0.0-dev-20230930093547",
+		"@park-ui/presets": "0.16.0",
+		"@types/node": "18.17.1",
+		"nuxt": "^3.7.4",
+		"nuxt-font-loader": "^2.3.4"
+	},
+	"dependencies": {
+		"@fontsource-variable/inter": "^5.0.8",
+		"@nuxtjs/color-mode": "^3.3.0",
+		"@tabler/icons-vue": "^2.35.0",
+		"radix-vue": "^0.4.1"
+	},
+	"volta": {
+		"extends": "../../package.json"
+	},
+	"packageManager": "yarn@3.6.3"
+}
