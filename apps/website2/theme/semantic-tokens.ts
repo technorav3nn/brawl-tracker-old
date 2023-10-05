@@ -11,11 +11,12 @@ export const semanticTokens = defineSemanticTokens({
 			accent: { value: { base: "{colors.sky.500}", _dark: "{colors.sky.500}" } },
 		},
 	},
-	// radii: {
-	// 	l1: { value: "{radii.md}" },
-	// 	l2: { value: "{radii.lg}" },
-	// 	l3: { value: "{radii.xl}" },
-	// },
+	radii: {
+		l1: { value: "{radii.sm}" },
+		l2: { value: "{radii.md}" },
+		l3: { value: "{radii.lg}" },
+		radius: { value: "0.5rem" },
+	},
 	lineHeights: {
 		3: { value: ".75rem" },
 		4: { value: "1rem" },

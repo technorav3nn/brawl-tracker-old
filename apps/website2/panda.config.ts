@@ -6,6 +6,7 @@ import { semanticTokens } from "./theme/semantic-tokens";
 import { textStyles } from "./theme/text-styles";
 import { tokens } from "./theme/tokens";
 import { utilities } from "./theme/utilities";
+import { details } from "./theme/recipes/details";
 
 export default defineConfig({
 	preflight: true,
@@ -24,6 +25,7 @@ export default defineConfig({
 		extend: {
 			recipes: {
 				...typographyRecipes,
+				details,
 			},
 			tokens,
 			semanticTokens,

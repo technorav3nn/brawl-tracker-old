@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { IconCrown } from "@tabler/icons-vue";
+import { IconStar } from "@tabler/icons-vue";
 import { NAVBAR_ITEMS } from "$lib/config";
 import { shouldSetAriaCurrentPage } from "$lib/util/html-tags";
 import { navbarLink } from "./Navbar.styles";
@@ -23,8 +23,8 @@ const route = useRoute();
 		"
 		href="/"
 	>
-		<IconCrown :size="30" :strokeWidth="2.1" />
-		Royale Stats
+		<IconStar :size="30" :strokeWidth="2.1" />
+		BrawlTrack
 	</NuxtLink>
 	<HStack :display="{ base: 'none', lg: 'flex' }" gap="8">
 		<NuxtLink

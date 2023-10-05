@@ -21,7 +21,7 @@
 	href="/"
 >
 	<Crown size={30} strokeWidth={2.1} />
-	Royale Stats
+	brawl track
 </a>
 <div class={hstack({ gap: 8, display: { base: "none", lg: "flex" } })}>
 	{#each NAVBAR_ITEMS as { label, path }}

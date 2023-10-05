@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { IconMenu2, IconMoon, IconSun } from "@tabler/icons-vue";
 import { IconButton } from "$components/ui/icon-button";
-import DesktopLinks from "./DesktopLinks.vue";
+import DesktopLinks from "./desktop-links.vue";
 import { colorSchemeToggle } from "./Navbar.styles";
 import { Box, Container, HStack, styled } from "$styled-system/jsx";
 
