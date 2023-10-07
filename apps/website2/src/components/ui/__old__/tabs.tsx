@@ -1,7 +1,7 @@
 // import * as Ark from "@ark-ui/vue/tabs";
 // import { createStyleContext } from "~/lib/util/__old__create-style-context";
-// import { styled } from "$styled-system/jsx";
-// import { type TabsVariantProps, tabs } from "$styled-system/recipes";
+// import { styled } from "styled-system/jsx";
+// import { type TabsVariantProps, tabs } from "styled-system/recipes";
 
 // const { withProvider, withContext } = createStyleContext(tabs);
 

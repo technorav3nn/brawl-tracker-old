@@ -1,19 +1,18 @@
 import { defineConfig } from "@pandacss/dev";
 import { conditions } from "./theme/conditions";
 import { keyframes } from "./theme/keyframes";
+import { details } from "./theme/recipes/details";
 import { typographyRecipes } from "./theme/recipes/typography";
 import { semanticTokens } from "./theme/semantic-tokens";
 import { textStyles } from "./theme/text-styles";
 import { tokens } from "./theme/tokens";
 import { utilities } from "./theme/utilities";
-import { details } from "./theme/recipes/details";
 
 export default defineConfig({
 	preflight: true,
 	include: ["./src/components/**/*.{js,jsx,ts,tsx,vue}", "./src/pages/**/*.{js,jsx,ts,tsx,vue}"],
 	exclude: [],
 	presets: ["@pandacss/dev/presets", "@park-ui/presets"],
-	outdir: "styled-system",
 	staticCss: {
 		recipes: {
 			button: ["*"],

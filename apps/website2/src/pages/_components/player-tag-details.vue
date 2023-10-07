@@ -1,9 +1,9 @@
 <script setup lang="ts">
 import { IconChevronDown, IconChevronRight } from "@tabler/icons-vue";
-import { css, cx } from "$styled-system/css";
-import { styled } from "$styled-system/jsx";
-import { wrap } from "$styled-system/patterns";
-import { details } from "$styled-system/recipes";
+import { css, cx } from "styled-system/css";
+import { styled } from "styled-system/jsx";
+import { wrap } from "styled-system/patterns";
+import { details } from "styled-system/recipes";
 
 const tagInfoState = ref(false);
 const detailsClasses = details();
@@ -11,7 +11,7 @@ const detailsClasses = details();
 
 <template>
 	<details
-		:class="cx(detailsClasses.root, css({ w: '250px', mt: 5 }))"
+		:class="cx(detailsClasses.root, css({ mt: 5, cursor: 'pointer' }))"
 		:open="tagInfoState"
 		@toggle="tagInfoState = ($event.target as HTMLDetailsElement).open"
 	>
@@ -30,11 +30,24 @@ const detailsClasses = details();
 		>
 			<IconChevronDown :size="20" v-if="tagInfoState" />
 			<IconChevronRight :size="20" v-else />
-			<styled.p mx="auto">Where is my Tag?</styled.p>
+			<styled.p mx="auto">Where is my Tag located?</styled.p>
 		</summary>
-		<p :class="detailsClasses.content">
-			Your tag is the 9 character code that is unique to your account. You can find it by clicking
-			on your profile in the game.
+		<p :class="cx(detailsClasses.content, css({ cursor: 'text' }))">
+			<video
+				:class="
+					css({
+						width: '500px',
+						height: '300px',
+						position: 'relative',
+						objectFit: {
+							base: 'scale-down',
+							lg: 'initial',
+						},
+					})
+				"
+				controls
+				src="https://brawlstats.com/guide.mp4"
+			/>
 		</p>
 	</details>
 </template>

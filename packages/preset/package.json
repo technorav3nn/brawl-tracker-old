@@ -13,9 +13,14 @@
 	},
 	"devDependencies": {
 		"@brawltracker/tsconfig": "workspace:*",
-		"tsup": "7.2.0"
+		"tsup": "^7.2.0",
+		"unbuild": "^2.0.0"
 	},
 	"scripts": {
 		"build": "tsup"
-	}
+	},
+	"volta": {
+		"extends": "../../package.json"
+	},
+	"packageManager": "yarn@3.6.3"
 }

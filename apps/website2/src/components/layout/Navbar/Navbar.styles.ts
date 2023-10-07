@@ -1,4 +1,4 @@
-import { css, cva } from "$styled-system/css";
+import { css, cva } from "styled-system/css";
 
 export const navbarLink = css({
 	textStyle: "md",

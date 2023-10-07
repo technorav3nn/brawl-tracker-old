@@ -17,7 +17,7 @@ export default defineNuxtConfig({
 		dirs: [],
 	},
 	alias: {
-		"$styled-system": resolve("./styled-system"),
+		"styled-system": resolve("./styled-system"),
 		$components: resolve("./src/components"),
 		$pages: resolve("./src/pages"),
 		$layouts: resolve("./src/layouts"),

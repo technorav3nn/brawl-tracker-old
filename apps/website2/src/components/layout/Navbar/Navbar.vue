@@ -3,7 +3,7 @@ import { IconMenu2, IconMoon, IconSun } from "@tabler/icons-vue";
 import { IconButton } from "$components/ui/icon-button";
 import DesktopLinks from "./desktop-links.vue";
 import { colorSchemeToggle } from "./Navbar.styles";
-import { Box, Container, HStack, styled } from "$styled-system/jsx";
+import { Box, Container, HStack, styled } from "styled-system/jsx";
 
 const colorMode = useColorMode();
 

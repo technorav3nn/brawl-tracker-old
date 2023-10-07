@@ -6,7 +6,7 @@
 // 	IntrinsicElementAttributes,
 // 	VNodeProps,
 // } from "vue";
-// import type { HTMLStyledProps, Styled } from "$styled-system/types/jsx";
+// import type { HTMLStyledProps, Styled } from "styled-system/types/jsx";
 
 // type AnyProps = Record<string, unknown>;
 // interface AnyRecipe {

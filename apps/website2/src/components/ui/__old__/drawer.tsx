@@ -1,6 +1,6 @@
 // import * as Ark from "@ark-ui/vue/dialog";
-// import { styled } from "$styled-system/jsx";
-// import { type DrawerVariantProps, drawer } from "$styled-system/recipes";
+// import { styled } from "styled-system/jsx";
+// import { type DrawerVariantProps, drawer } from "styled-system/recipes";
 // import { createStyleContext } from "~/lib/util/__old__create-style-context";
 
 // const { withProvider, withContext } = createStyleContext(drawer);

@@ -1,6 +1,6 @@
 // import type { InferRecipeSlots } from "$lib/types/slot-recipes";
-// import { styled } from "$styled-system/jsx";
-// import { type CardVariantProps, card } from "$styled-system/recipes";
+// import { styled } from "styled-system/jsx";
+// import { type CardVariantProps, card } from "styled-system/recipes";
 
 // const CONTEXT_NAME = Symbol("card symbol");
 

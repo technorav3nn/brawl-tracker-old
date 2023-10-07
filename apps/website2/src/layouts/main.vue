@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import Navbar from "$components/layout/Navbar";
-import { Container } from "$styled-system/jsx";
+import { Container } from "styled-system/jsx";
 </script>
 
 <template>

@@ -1,8 +1,8 @@
 <script setup lang="ts">
 import { IconChevronRight, IconSearch } from "@tabler/icons-vue";
 import { IconButton } from "$components/ui/icon-button";
-import { css } from "$styled-system/css";
-import { Box, styled } from "$styled-system/jsx";
+import { css } from "styled-system/css";
+import { Box, Center, styled } from "styled-system/jsx";
 </script>
 
 <template>
@@ -40,27 +40,29 @@ import { Box, styled } from "$styled-system/jsx";
 		<styled.p color="fg.subtle" fontSize="md" textStyle="lead">
 			Find out how you stack up against the competition in Brawl Stars. View your stats now!
 		</styled.p>
-		<Box
-			bg="bg.canvas"
-			borderColor="border.emphasized"
-			borderWidth="1px"
-			display="flex"
-			mt="5"
-			mx="20"
-			p="2"
-			rounded="l2"
-		>
-			<styled.input
+		<Center>
+			<Box
 				bg="bg.canvas"
-				flexGrow="1"
-				ml="1"
-				outline="0"
-				placeholder="Player Tag, e.g. #RF8JYVJ"
-				w="50%"
-			/>
-			<IconButton>
-				<IconSearch />
-			</IconButton>
-		</Box>
+				borderColor="border.emphasized"
+				borderWidth="1px"
+				display="flex"
+				mt="5"
+				p="1"
+				rounded="l2"
+				w="80%"
+			>
+				<styled.input
+					bg="bg.canvas"
+					flexGrow="1"
+					ml="1"
+					outline="0"
+					placeholder="Player: #2YJ8Q9L"
+					w="80%"
+				/>
+				<IconButton>
+					<IconSearch />
+				</IconButton>
+			</Box>
+		</Center>
 	</Box>
 </template>

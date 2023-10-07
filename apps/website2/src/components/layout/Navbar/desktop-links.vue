@@ -1,10 +1,10 @@
 <script setup lang="ts">
 import { IconStar } from "@tabler/icons-vue";
+import { css } from "styled-system/css";
+import { HStack } from "styled-system/jsx";
 import { NAVBAR_ITEMS } from "$lib/config";
 import { shouldSetAriaCurrentPage } from "$lib/util/html-tags";
 import { navbarLink } from "./Navbar.styles";
-import { css } from "$styled-system/css";
-import { HStack } from "$styled-system/jsx";
 
 const route = useRoute();
 </script>

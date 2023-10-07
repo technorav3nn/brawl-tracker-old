@@ -1,8 +1,8 @@
 export const NAVBAR_ITEMS = [
-	{ label: "Cards", path: "/cards" },
+	{ label: "Brawlers", path: "/brawlers" },
 	{ label: "Players", path: "/players" },
-	{ label: "Decks", path: "/decks" },
-	{ label: "Clans", path: "/clans" },
+	{ label: "Events", path: "/events" },
+	{ label: "Clubs", path: "/clubs" },
 ] as const;
 
 export const NAVIGATION_DRAWER_ITEMS = [{ label: "Home", path: "/" }, ...NAVBAR_ITEMS] as const;

@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import PlayerTagDetails from "./_components/player-tag-details.vue";
 import StatsHero from "./_components/stats-hero.vue";
-import { Box } from "$styled-system/jsx";
+import { Box } from "styled-system/jsx";
 </script>
 
 <template>

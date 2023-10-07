@@ -25,6 +25,7 @@
 		"svelte": "^4.0.5",
 		"svelte-check": "^3.4.3",
 		"turbo": "latest",
+		"unbuild": "^2.0.0",
 		"vitest": "^0.34.4"
 	},
 	"workspaces": [
@@ -34,7 +35,7 @@
 	"packageManager": "yarn@3.6.3",
 	"name": "boom-arena-stats",
 	"volta": {
-		"node": "18.12.0",
+		"node": "20.8.0",
 		"yarn": "3.6.3",
 		"pnpm": "8.7.5"
 	}

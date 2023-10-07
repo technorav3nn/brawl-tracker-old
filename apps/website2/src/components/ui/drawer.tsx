@@ -12,8 +12,8 @@ import {
 import { Teleport } from "vue";
 import type { InferRecipeSlots } from "../../lib/types/slot-recipes";
 import type { ExtendProps } from "../../lib/types/vue";
-import type { DrawerVariantProps } from "$styled-system/recipes";
-import { drawer } from "$styled-system/recipes";
+import type { DrawerVariantProps } from "styled-system/recipes";
+import { drawer } from "styled-system/recipes";
 
 const CONTEXT_NAME = Symbol("drawer symbol");
 
